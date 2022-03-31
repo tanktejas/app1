@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS//Googlepage.css" />
+    <title>Google Home page</title>
+  </head>
+  <body>
+    <!-- header start for google page  -->
+    <header>
+      <div class="leftLinks"></div>
+      <div class="rightLinks">
+        <ul class="rightLinksUl">
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+        </ul>
+
+        <a href="#" class="menu"></a>
+
+        <a href="#" class="b-signIn">Sign in</a>
+      </div>
+    </header>
+    <!-- header end for google page  -->
+
+    <!-- main content start of google page  -->
+    <main>
+      <a href="#" class="logo"
+        ><img src="https://i.imgur.com/zL6ZRDY.png" alt="Google Logo"
+      /></a>
+
+      <div class="searchBar" onclick="setFocus()">
+        <!-- google icon  -->
+        <div class="loop">
+          <span class="loopIcon"
+            ><svg viewBox="0 0 24 24">
+              <path
+                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              ></path></svg></span>
+        </div>
+        <!-- search bar  -->
+        <input
+          id="searchField"
+          class="searchField"
+          type="text"
+          name="searchField"
+        />
+
+        <div class="mic"><span class="micIcon"></span></div>
+      </div>
+
+      <div class="mainButtons">
+        <a href="#" class="b-main">Google Search</a>
+        <a href="#" class="b-main">I'am Feeling Lucky</a>
+      </div>
+      <div class="language">
+        <p>
+          Google offered in:
+          <span>
+            <a class="lang"
+              >हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</a
+            >
+          </span>
+        </p>
+      </div>
+    </main>
+    <!-- main content end of google page  -->
+
+    <!-- footer  start of google page  -->
+    <footer>
+      <!-- all footer links  -->
+      <div class="left">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">How Search works</a></li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- footer end of google page  -->
+  </body>
+  <script src="./JS//Googlejspage.js"></script>
+</html>
